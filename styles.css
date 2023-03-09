@@ -1,0 +1,161 @@
+body {
+    background-image:url(background/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+#navbar{
+    position: fixed;
+    width: 100;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(150, 161, 192);
+    z-index: 3000;
+    }
+#navbar img {
+    width: 60px;
+}
+.left {
+    display:flex;
+    /* justify-content:flex-start; */
+    background-color: rgb(150, 161, 192);
+}
+.left .eye {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(150, 161, 192);
+}
+.left .comatosehuman{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgb(150, 161, 192);
+    font-size: 25px;
+    text-decoration: none;
+    font-family:Helvetica, Arial, sans-serif;
+    
+}
+.right {
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    background-color: rgb(150, 161, 192);
+}
+.right .home {
+    background-color: rgb(150, 161, 192);
+    text-decoration: none;
+}
+.right .aboutme {
+    background-color: rgb(150, 161, 192);
+    text-decoration: none;
+}
+.right .contactme {
+    background-color: rgb(150, 161, 192);
+    text-decoration: none;
+}
+
+
+.eye:hover {
+    background-color: rgb(160, 170, 197);
+    transition: background-color 0.2s;
+}
+.comatosehuman:hover {
+    background-color: rgb(160, 170, 197);
+    transition: background-color 0.2s;
+}
+.home:hover {
+    background-color: rgb(160, 170, 197);
+    transition: background-color 0.2s;
+}
+.aboutme:hover {
+    background-color: rgb(160, 170, 197);
+    transition: background-color 0.2s;
+}
+.contactme:hover {
+    background-color: rgb(160, 170, 197);
+    transition: background-color 0.2s;
+}
+
+.eye:not(:hover) {
+    background-color: rgb(150, 161, 192);
+    transition: background-color 0.2s;
+}
+.comatosehuman:not(:hover) {
+    background-color: rgb(150, 161, 192);
+    transition: background-color 0.2s;
+}
+.home:not(:hover) {
+    background-color: rgb(150, 161, 192);
+    transition: background-color 0.2s;
+}
+.aboutme:not(:hover) {
+    background-color: rgb(150, 161, 192);
+    transition: background-color 0.2s;
+}
+.contactme:not(:hover) {
+    background-color: rgb(150, 161, 192);
+    transition: background-color 0.2s;
+}
+
+.pagetitle {
+    margin-top: 100px;
+    text-align: center;
+}
+.spiel {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+.albumintro {
+    font-size: 10;
+}
+
+
+.albums {
+    width: 70%;
+    margin: 0 auto;
+}
+#albumonecurrent {
+    width: 100%;
+}
+#albumtwocurrent {
+    width: 100%;
+}
+.thumbs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutmeimg img {
+    width: 100px;
+}
+
+/* .contactdetails {
+    text-align: left;
+    margin-left: 30%;
+} */
